@@ -1,0 +1,16 @@
+namespace: kumada626
+name: test-command
+version: "0"
+description: Test Command
+usage: |
+        sd-cmd exec foo/bar@1 <OPTION> <TARGET>
+        Options:
+                --config              some config file
+                --debug               debug mode (default "false")
+                --host                super host
+                --log-level           set the logging level ("debug"|"info"|"warn"|"error"|"fatal") (default "info")
+        Target:                       path to file
+maintainer: bar@baz.com
+format: binary # Format the command is in (binary, habitat)
+binary:
+    file: ./run.sh # Path to script or binary file from repository root

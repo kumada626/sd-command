@@ -1,6 +1,6 @@
 namespace: kumada626
 name: test-command
-version: "0.0"
+version: "0"
 description: Test Command 0.0
 usage: |
         sd-cmd exec foo/bar@1 <OPTION> <TARGET>
